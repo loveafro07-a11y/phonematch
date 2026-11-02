@@ -1,0 +1,23 @@
+PHONE MATCH
+Une partie sur téléphone, sans inscription.
+
+OBTENIR UN LIEN POUR TON FRÈRE
+1. Sur ton ordinateur, ouvre https://app.netlify.com/drop et connecte-toi à un compte Netlify avec l'offre Free.
+2. Glisse Phone-Match.zip dans la zone de dépôt. Si ton navigateur attend un dossier, décompresse le ZIP et dépose le dossier contenant directement index.html, styles.css et app.js.
+3. Une fois le déploiement terminé, copie l'adresse qui finit par .netlify.app. Si le projet est privé, rends-le public dans Netlify.
+4. Ouvre cette adresse dans une fenêtre de navigation privée pour vérifier qu'elle fonctionne sans compte. Envoie ensuite le lien à ton frère par WhatsApp. Il ouvre le lien, écrit son prénom et touche « Révéler ».
+
+TESTER SUR TON ORDINATEUR
+Décompresse le ZIP et double-clique sur index.html. Laisse styles.css et app.js à côté. Les images sont dessinées par le jeu, sans téléchargement supplémentaire.
+
+JOUER
+Le jeu attribue au hasard l'un des 12 modèles de téléphone. Dans une même session, un prénom garde son résultat. Deux prénoms peuvent recevoir le même modèle.
+« À qui le tour ? » revient au formulaire. Touche un prénom dans l'historique pour revoir son téléphone. « Nouvelle session » permet de recommencer après confirmation.
+« Partager le jeu » partage l'adresse du site une fois publié. Chaque navigateur conserve sa propre partie. Aucun téléphone réel n'est à gagner.
+
+MODIFIER LE JEU
+index.html contient les textes et l'interface, styles.css la présentation, et app.js les téléphones et les règles. Pour modifier les modèles proposés, édite la liste PHONES au début de app.js. Pour conserver le même lien après une modification, mets à jour le projet Netlify existant en déposant le dossier modifié dans sa zone de déploiement.
+
+AIDE NETLIFY
+https://docs.netlify.com/start/quickstarts/netlify-drop-quickstart/
+https://www.netlify.com/pricing/
